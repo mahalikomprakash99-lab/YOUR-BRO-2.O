@@ -6,11 +6,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Game Fixes | YOUR BRO</title>
+<title>GTA San Andreas Fixes | YOUR BRO</title>
 
 <link rel="stylesheet" href="style.css">
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 
@@ -20,14 +18,14 @@
 
 <div class="logo">
 <h1>YOUR BRO</h1>
-<p>Downloads • Game Fixes</p>
+<p>Downloads • GTA San Andreas Fixes</p>
 </div>
 
 <nav>
 
 <a href="index.html">Home</a>
 <a href="games.html">Games</a>
-<a href="gamefixes.html" class="active">Game Fixes</a>
+<a href="gamefixes.html">Game Fixes</a>
 
 </nav>
 
@@ -35,111 +33,72 @@
 
 <section class="hero">
 
-<h2>🛠 Game Fixes</h2>
+<h2>🎮 GTA San Andreas Fixes</h2>
 
-<p>Select a game to view its available fixes.</p>
-
-<input
-type="text"
-id="searchInput"
-placeholder="Search a game..."
-onkeyup="searchFolders()">
+<p>Download the fixes below.</p>
 
 </section>
 
 <main>
 
-<div class="folder-grid">
+<div class="download-item">
 
-<!-- GTA SA -->
+<div class="download-info">
 
-<div class="folder-card">
+<h3>SilentPatch SA</h3>
 
-<div class="folder-icon">
-🎮
-</div>
-
-<h3>GTA San Andreas</h3>
-
-<p>View all fixes</p>
-
-<a href="gta-sa-fixes.html">
-
-<button>Open</button>
-
-</a>
+<p>Fixes bugs and improves game stability.</p>
 
 </div>
 
-<!-- GTA IV -->
+<button class="download-btn"
+onclick="downloadFile('gamefixes/gta-sa/SilentPatchSA.zip')">
 
-<div class="folder-card">
+Download
 
-<div class="folder-icon">
-🎮
-</div>
-
-<h3>GTA IV</h3>
-
-<p>View all fixes</p>
-
-<a href="gta-iv-fixes.html">
-
-<button>Open</button>
-
-</a>
+</button>
 
 </div>
 
-<!-- Tomb Raider -->
+<div class="download-item">
 
-<div class="folder-card">
+<div class="download-info">
 
-<div class="folder-icon">
-🎮
-</div>
+<h3>Ultimate ASI Loader</h3>
 
-<h3>Tomb Raider</h3>
-
-<p>View all fixes</p>
-
-<a href="tombraider-fixes.html">
-
-<button>Open</button>
-
-</a>
+<p>Required for many GTA SA mods.</p>
 
 </div>
 
-<!-- Borderlands 2 -->
+<button class="download-btn"
+onclick="downloadFile('gamefixes/gta-sa/Ultimate-ASI-Loader.zip')">
 
-<div class="folder-card">
+Download
 
-<div class="folder-icon">
-🎮
-</div>
-
-<h3>Borderlands 2</h3>
-
-<p>View all fixes</p>
-
-<a href="borderlands2-fixes.html">
-
-<button>Open</button>
-
-</a>
+</button>
 
 </div>
+
+<div class="download-item">
+
+<div class="download-info">
+
+<h3>Silent's ASI Loader</h3>
+
+<p>Alternative ASI loader.</p>
+
+</div>
+
+<button class="download-btn"
+onclick="downloadFile('gamefixes/gta-sa/silents_asi_loader_13.zip')">
+
+Download
+
+</button>
 
 </div>
 
 </main>
-
-<footer>
-
-<p>© 2026 YOUR BRO</p>
-
-</footer>
 
 <script src="script.js"></script>
 
