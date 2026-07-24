@@ -33,14 +33,9 @@ function searchFolders() {
    Download Button
 ========================================== */
 
-function downloadFile(link){
+function downloadFile(file) {
 
-    if(link === ""){
-        alert("Download link has not been added yet.");
-        return;
-    }
-
-    window.open(link,"_blank");
+    window.open(file, "_blank");
 
 }
 
