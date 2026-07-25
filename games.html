@@ -28,6 +28,7 @@
 <a href="index.html">Home</a>
 <a href="games.html" class="active">Games</a>
 <a href="gamefixes.html">Game Fixes</a>
+<a href="tools.html">Tools</a>
 
 </nav>
 
@@ -37,12 +38,12 @@
 
 <h2>🎮 Games</h2>
 
-<p>Download your favorite games.</p>
+<p>Select a platform.</p>
 
 <input
 type="text"
 id="searchInput"
-placeholder="Search a game..."
+placeholder="Search a platform..."
 onkeyup="searchFolders()">
 
 </section>
@@ -51,22 +52,45 @@ onkeyup="searchFolders()">
 
 <div class="folder-grid">
 
-<!-- GTA SA -->
+<!-- PC Games -->
 
 <div class="folder-card">
 
-<div class="game-image">
-    <img src="images/gta-sa-logo.png" alt="GTA San Andreas">
+<div class="folder-icon">
+💻
 </div>
 
-<h3>GTA San Andreas</h3>
+<h3>PC Games</h3>
 
-<p>Original Game</p>
+<p>Browse PC games.</p>
 
-<button class="download-btn"
-onclick="window.open('https://drive.google.com/file/d/1jPnP0BbA5NePbkSWibdbfPxSZsZv4gdS/view?usp=sharing')">
+<a href="pc-games.html">
 
-Download
+<button>
+
+Open
+
+</button>
+
+</a>
+
+</div>
+
+<!-- Android Games -->
+
+<div class="folder-card">
+
+<div class="folder-icon">
+📱
+</div>
+
+<h3>Android Games</h3>
+
+<p>Coming Soon</p>
+
+<button onclick="comingSoon()">
+
+Coming Soon
 
 </button>
 
