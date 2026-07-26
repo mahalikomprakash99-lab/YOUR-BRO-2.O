@@ -350,3 +350,35 @@ text-align:center;
 }
 
 }
+
+/* ===========================
+   DOWNLOAD NOTE
+=========================== */
+
+.download-note{
+
+    margin-top:15px;
+
+    padding:12px;
+
+    background:#1f2937;
+
+    border-left:4px solid #facc15;
+
+    border-radius:8px;
+
+    font-size:14px;
+
+    line-height:1.6;
+
+    color:#ffffff;
+
+    text-align:left;
+
+}
+
+.download-note strong{
+
+    color:#facc15;
+
+}
